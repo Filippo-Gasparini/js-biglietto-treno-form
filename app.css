@@ -1,0 +1,26 @@
+body {
+    background-color:rgba(0, 128, 0, 0.438);
+}
+.container {
+    max-width: 800px;
+    margin-top: 75px;
+    margin: 0, auto;
+    text-align: center;
+}
+
+.form-control {
+    text-align: center;
+    font-size:large;
+}
+
+
+
+
+.form-group{
+    padding-top: 10px;
+}
+
+.col-auto .btn {
+    margin-top: 10px;
+}
+
