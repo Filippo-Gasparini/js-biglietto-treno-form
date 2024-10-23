@@ -23,10 +23,25 @@ const userAge = document.getElementById('Inserisci la tua età')
 //vado ad applicare la formula per lo sconto per i minorenni e over 65
 
 
-//biglietto biglietto scontato per minorenni
+//biglietto scontato per minorenni
 
-let = 'userAge'
+const genera = ''
 if (userAge < 18) {
     sconto = (km * 20) / 100;
-} 
+
+//biglietto scontato per gli over 65
+
+} else if (userAge > 65) {
+    sconto = (km * 40) / 100;
+}
+
+//vado a generare il prezzo del biglietto
+
+genera.addEventListener ("click",function(){
+    console.log()
+})
+
+
+
+
 
