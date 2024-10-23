@@ -14,5 +14,19 @@ console.log('bigietto treno')
 
 
 // km che vuole percorrere l'utente
-const biglietto = document.getElementById('Inserisci i km')
+const km = document.getElementById('Inserisci i km')
+// età dell'utente
+const userAge = document.getElementById('Inserisci la tua età')
+
+
+
+//vado ad applicare la formula per lo sconto per i minorenni e over 65
+
+
+//biglietto biglietto scontato per minorenni
+
+let = 'userAge'
+if (userAge < 18) {
+    sconto = (km * 20) / 100;
+} 
 
