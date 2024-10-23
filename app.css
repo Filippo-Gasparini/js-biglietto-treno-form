@@ -2,6 +2,8 @@ body {
     background-color:rgba(0, 128, 0, 0.438);
 }
 .container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
     max-width: 800px;
     margin-top: 75px;
     margin: 0, auto;
